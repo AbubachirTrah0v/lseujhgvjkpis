@@ -1,170 +1,175 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="FORMA — пространство для идей, дизайна и цифровых проектов.">
+  <title>FORMA — создаём впечатления</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
+<body>
+  <header class="header" id="top">
+    <a class="logo" href="#top" aria-label="FORMA — на главную">F<span>O</span>RMA<span class="logo-dot">.</span></a>
+    <button class="burger" id="burger" aria-label="Открыть меню" aria-expanded="false">
+      <span></span><span></span>
+    </button>
+    <nav class="nav" id="nav">
+      <a href="#about">О нас</a>
+      <a href="#process">Процесс</a>
+      <a href="#projects">Проекты</a>
+      <a href="#plans">Форматы</a>
+      <a class="nav-cta" href="#contact">Обсудить идею <span>↗</span></a>
+      <button class="theme-toggle" id="themeToggle" aria-label="Переключить тему">☾</button>
+    </nav>
+  </header>
 
-    <!-- 2. Меню -->
-    <header>
-        <nav>
-            <b>Навигация по статье:</b>
-            <a href="#intro">Введение</a>
-            <a href="#evolution">Эволюция</a>
-            <a href="#subscribe">Подписка</a>
-        </nav>
-    </header>
+  <main>
+    <section class="hero section-wrap">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="eyebrow-line"></span> НЕЗАВИСИМАЯ DIGITAL-СТУДИЯ</p>
+        <h1>Идеи обретают<br><span>форму.</span></h1>
+        <p class="hero-text">Создаём визуальные истории и цифровые пространства, в которых хочется остаться.</p>
+        <div class="hero-actions">
+          <a class="button button-dark" href="#projects">Смотреть проекты <span>↗</span></a>
+          <a class="text-link" href="#about">Узнать о студии <span>↓</span></a>
+        </div>
+        <div class="hero-note"><span class="note-dot"></span> Дизайн с характером. Смысл в каждой детали.</div>
+      </div>
+      <div class="hero-art" aria-label="Абстрактная композиция из геометрических фигур">
+        <div class="art-orbit orbit-one"></div>
+        <div class="art-orbit orbit-two"></div>
+        <div class="art-sphere"></div>
+        <div class="art-card">LESS<br>ORDINARY<span>✳</span></div>
+        <div class="art-caption">FIG. 01 — CREATIVE ENERGY</div>
+      </div>
+      <div class="hero-bottom"><span>SCROLL TO EXPLORE</span><span>01 / 04</span></div>
+    </section>
 
-    <hr>
+    <section class="intro section-wrap" id="about">
+      <div class="section-label">01 / КТО МЫ</div>
+      <div class="intro-content">
+        <h2>Не просто красиво.<br><em>Осмысленно.</em></h2>
+        <p>FORMA — небольшая креативная студия, которая превращает сложные идеи в понятный и выразительный визуальный язык. Мы соединяем стратегию, дизайн и технологии, чтобы создавать проекты, которые работают и запоминаются.</p>
+        <a class="round-link" href="#contact" aria-label="Связаться с нами">↗</a>
+      </div>
+    </section>
 
-    <!-- 3. Оглавление -->
-    <main>
-        <h1>История и эволюция кошачьих: от диких предков до домашних любимцев</h1>
-        
-        <h2>Оглавление</h2>
-        <ol>
-            <li><a href="#intro">Вводный раздел: Кто такие кошачьи?</a></li>
-            <li><a href="#art1">Визуальный силуэт дикой кошки</a></li>
-            <li><a href="#evolution">Основной раздел: Путь к одомашниванию</a></li>
-            <li><a href="#table-section">Статистика распространения видов</a></li>
-            <li><a href="#art2">Силуэт домашнего любимца</a></li>
-            <li><a href="#lists-section">Списки кошачьих качеств и пород</a></li>
-            <li><a href="#subscribe">Форма обратной связи</a></li>
-        </ol>
+    <section class="vibe">
+      <div class="vibe-grain"></div>
+      <p class="eyebrow">НАШ ПРИНЦИП</p>
+      <blockquote>«Большие идеи<br>начинаются с <span>любопытства.</span>»</blockquote>
+      <div class="vibe-bottom"><span>ОСТАВАЙСЯ ЛЮБОПЫТНЫМ</span><span>✳</span><span>MAKE SOMETHING MATTER</span></div>
+    </section>
 
-        <hr>
+    <section class="process section-wrap" id="process">
+      <div class="section-heading">
+        <div><div class="section-label">02 / КАК МЫ РАБОТАЕМ</div><h2>От мысли<br>до <em>результата.</em></h2></div>
+        <p>Понятный процесс помогает сохранить главное — сильную идею — и довести её до качественного результата.</p>
+      </div>
+      <div class="steps">
+        <article class="step-card">
+          <div class="step-icon">⌕</div><span class="step-number">01</span>
+          <h3>Исследуем</h3><p>Знакомимся с задачей, аудиторией и контекстом. Находим точку, с которой всё начинается.</p>
+        </article>
+        <article class="step-card">
+          <div class="step-icon">✳</div><span class="step-number">02</span>
+          <h3>Придумываем</h3><p>Собираем идеи в цельную концепцию, выбираем визуальное направление и создаём прототип.</p>
+        </article>
+        <article class="step-card">
+          <div class="step-icon">↗</div><span class="step-number">03</span>
+          <h3>Запускаем</h3><p>Детализируем дизайн, проверяем адаптивность и превращаем концепцию в готовый проект.</p>
+        </article>
+      </div>
+    </section>
 
-        <!-- 4. Вводный раздел -->
-        <section id="intro">
-            <h2>Вводный раздел: Кто такие кошачьи?</h2>
-            <p>Семейство кошачьих — это одна из самых успешных и специализированных групп хищных млекопитающих на Земле. С древних времен эти грациозные животные вызывали у человека восхищение, страх и благоговение. От крошечных ржавых кошек до массивных амурских тигров — все они обладают уникальными анатомическими особенностями, идеальными для охоты.</p>
-            <p>Изучение их истории позволяет понять, как дикие и опасные хищники смогли пройти путь длиной в миллионы лет и превратиться в ласковых домашних питомцев. Сегодня кошки занимают важное место в культуре, науке и повседневной жизни миллиардов людей по всему земному шару.</p>
-        </section>
+    <section class="projects section-wrap" id="projects">
+      <div class="section-heading">
+        <div><div class="section-label">03 / ИЗБРАННОЕ</div><h2>Свежие<br><em>впечатления.</em></h2></div>
+        <p>Несколько направлений, в которых мы любим экспериментировать.</p>
+      </div>
+      <div class="filter-row" role="group" aria-label="Фильтр проектов">
+        <button class="filter-btn active" data-filter="all">Все проекты</button>
+        <button class="filter-btn" data-filter="identity">Айдентика</button>
+        <button class="filter-btn" data-filter="web">Веб-дизайн</button>
+        <button class="filter-btn" data-filter="art">Арт-дирекшн</button>
+      </div>
+      <div class="project-grid" id="projectGrid">
+        <article class="project-card project-visual visual-one" data-category="identity">
+          <div class="visual-shape shape-one"></div><div class="visual-type">MOTION<br>IS A<br>LANGUAGE.</div>
+          <div class="project-meta"><div><h3>Motion Dept.</h3><p>Айдентика / 2025</p></div><span>↗</span></div>
+        </article>
+        <article class="project-card project-visual visual-two" data-category="web">
+          <div class="visual-window"><div class="window-top"><i></i><i></i><i></i></div><div class="window-title">Objects<br>with a story.</div><div class="window-circle">O</div></div>
+          <div class="project-meta"><div><h3>Object Store</h3><p>Веб-дизайн / 2025</p></div><span>↗</span></div>
+        </article>
+        <article class="project-card project-visual visual-three" data-category="art">
+          <div class="visual-sun"></div><div class="visual-word">SLOW<br>DOWN<span>✳</span></div>
+          <div class="project-meta"><div><h3>Slow Living</h3><p>Арт-дирекшн / 2024</p></div><span>↗</span></div>
+        </article>
+      </div>
+    </section>
 
-        <!-- 5. Текстовое изображение 1 -->
-        <section id="art1">
-            <h3>Визуальный силуэт дикой кошки</h3>
-            <p>Ниже представлен ASCII-арт, символизирующий настороженного дикого кошачьего хищника в засаде:</p>
-<pre>
- /\_/\  
-( o.o ) 
- > ^ <  
- /   \  
+    <section class="plans section-wrap" id="plans">
+      <div class="section-heading">
+        <div><div class="section-label">04 / ФОРМАТЫ</div><h2>Выбери свой<br><em>масштаб.</em></h2></div>
+        <p>Начинаем с небольших задач и можем пройти весь путь от идеи до запуска.</p>
+      </div>
+      <div class="plan-grid">
+        <article class="plan-card"><span class="plan-tag">01 / START</span><h3>Концепция</h3><p>Для тех, кому нужно найти направление и собрать идею в ясную систему.</p><div class="plan-line"></div><ul><li>Исследование задачи</li><li>Визуальная концепция</li><li>Подбор референсов</li></ul><a href="#contact">Обсудить формат <span>↗</span></a></article>
+        <article class="plan-card plan-featured"><span class="plan-tag">02 / MOST POPULAR</span><h3>Дизайн</h3><p>Полноценная визуальная система для бренда или цифрового продукта.</p><div class="plan-line"></div><ul><li>Всё из концепции</li><li>Дизайн-макеты</li><li>Адаптивные версии</li></ul><a href="#contact">Обсудить формат <span>↗</span></a></article>
+        <article class="plan-card"><span class="plan-tag">03 / FULL CYCLE</span><h3>Запуск</h3><p>От первых набросков до работающего сайта и финальной проверки.</p><div class="plan-line"></div><ul><li>Всё из дизайна</li><li>Вёрстка и интерактив</li><li>Подготовка к запуску</li></ul><a href="#contact">Обсудить формат <span>↗</span></a></article>
+      </div>
+    </section>
 
-|     |
-</pre>
-        </section>
+    <section class="faq section-wrap">
+      <div class="section-heading">
+        <div><div class="section-label">05 / ВОПРОСЫ</div><h2>Коротко<br><em>о главном.</em></h2></div>
+        <p>Если не нашли ответ — напишите нам, и мы всё обсудим.</p>
+      </div>
+      <div class="accordion">
+        <article class="accordion-item">
+          <button class="accordion-trigger" aria-expanded="false">С какими проектами вы работаете?<span>+</span></button>
+          <div class="accordion-panel"><p>Мы работаем с небольшими брендами, творческими командами и цифровыми продуктами. Главное — интересная задача и желание сделать что-то качественное.</p></div>
+        </article>
+        <article class="accordion-item">
+          <button class="accordion-trigger" aria-expanded="false">Можно заказать только дизайн?<span>+</span></button>
+          <div class="accordion-panel"><p>Да. Можно начать с исследования и концепции, заказать только дизайн или выбрать полный цикл с разработкой сайта.</p></div>
+        </article>
+        <article class="accordion-item">
+          <button class="accordion-trigger" aria-expanded="false">Как начинается работа?<span>+</span></button>
+          <div class="accordion-panel"><p>Оставьте заявку в форме ниже. Мы уточним задачу, обсудим сроки и предложим подходящий формат сотрудничества.</p></div>
+        </article>
+      </div>
+    </section>
 
-        <hr>
+    <section class="contact section-wrap" id="contact">
+      <div class="contact-copy">
+        <div class="section-label">06 / СВЯЗЬ</div>
+        <h2>Есть идея?<br><em>Давай обсудим.</em></h2>
+        <p>Расскажите немного о проекте — вместе найдём правильную форму.</p>
+        <div class="contact-mark">F<span>✳</span></div>
+      </div>
+      <form class="contact-form" id="contactForm">
+        <label for="name">Ваше имя</label>
+        <input id="name" name="name" type="text" placeholder="Как к вам обращаться?" required>
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" placeholder="name@example.com" required>
+        <label for="message">Пара слов о проекте <span>(необязательно)</span></label>
+        <textarea id="message" name="message" rows="3" placeholder="Что планируем создать?"></textarea>
+        <button class="button button-dark submit-button" type="submit">Отправить заявку <span>↗</span></button>
+        <p class="form-note" id="formNote" aria-live="polite">Нажимая кнопку, вы соглашаетесь на обработку указанных данных.</p>
+      </form>
+    </section>
+  </main>
 
-        <!-- 6. Основной раздел (с демонстрацией форматирования b, i, strong, em, mark, br) -->
-        <section id="evolution">
-            <h2>Основной раздел: Путь к одомашниванию</h2>
-            <p>Эволюция кошачьих началась около 25 миллионов лет назад. <br> Современные домашние кошки произошли от <strong>ливийской дикой кошки</strong> (<i>Felis lybica</i>). Процесс сближения человека и кошки начался на Ближнем Востоке во времена зарождения земледелия. Люди быстро поняли, что кошачьи являются <b>лучшими защитниками</b> зернохранилищ от грызунов.</p>
-            <p>В Древнем Египте эти животные возводились в ранг священных. За причинение вреда кошке виновного ждало суровое наказание. Ученые отмечают, что кошки, по сути, <em>одомашнили себя сами</em>, выбрав сытную жизнь рядом с человеческими поселениями. Сегодня <mark>генетическая связь</mark> между домашней мурлыкой и ее диким предком составляет более 95%.</p>
-            
-            <!-- 9. Цитата -->
-            <blockquote>
-                «Собака считает, что человек — бог. Кошка же считает, что она — бог, а человек — её слуга.» 
-                <br>— Известное народное наблюдение о характере питомцев.
-            </blockquote>
-        </section>
-
-        <!-- 7. Таблица (минимум 3x3) -->
-        <section id="table-section">
-            <h3>Статистика и классификация некоторых кошачьих</h3>
-            <table border="1">
-                <tr>
-                    <td><b>Название вида</b></td>
-                    <td><b>Средний вес (кг)</b></td>
-                    <td><b>Ареал обитания</b></td>
-                </tr>
-                <tr>
-                    <td>Лев</td>
-                    <td>190</td>
-                    <td>Африка, Индия</td>
-                </tr>
-                <tr>
-                    <td>Тигр</td>
-                    <td>220</td>
-                    <td>Азия, Сибирь</td>
-                </tr>
-                <tr>
-                    <td>Домашняя кошка</td>
-                    <td>4.5</td>
-                    <td>Весь мир</td>
-                </tr>
-            </table>
-        </section>
-
-        <!-- 8. Текстовое изображение 2 -->
-        <section id="art2">
-            <h3>Силуэт домашнего любимца</h3>
-            <p>Второе текстовое изображение демонстрирует кота, свернувшегося на коврике:</p>
-<pre>
-
-   |\---/|
-   | o_o |
-    \_ _/
-    /   \
-   (     )
-   (`---')
-</pre>
-        </section>
-
-        <hr>
-
-        <!-- 11 и 12. Списки (минимум 5 пунктов каждый) -->
-        <section id="lists-section">
-            <h3>Особенности кошачьего мира</h3>
-            
-            <p><b>Пять главных физических качеств кошек (Маркированный список):</b></p>
-            <ul>
-                <li>Острое ночное зрение, превосходящее человеческое в несколько раз.</li>
-                <li>Гибкий позвоночник, позволяющий изгибаться под невероятными углами.</li>
-                <li>Втягивающиеся когти для бесшумной ходьбы и успешной охоты.</li>
-                <li>Превосходный слух, улавливающий ультразвуковые колебания грызунов.</li>
-                <li>Вибриссы (усы), выполняющие функцию осязательных датчиков в темноте.</li>
-            </ul>
-
-            <p><b>Популярные породы домашних кошек по версии фелинологов (Нумерованный список):</b></p>
-            <ol>
-                <li>Мейн-кун — крупные кошки с кисточками на ушах.</li>
-                <li>Сиамская — грациозная порода с характерным окрасом колор-поинт.</li>
-                <li>Британская короткошерстная — плотные «плюшевые» коты.</li>
-                <li>Сфинкс — бесшерстные кошки с необычным внешним видом.</li>
-                <li>Бенгальская — питомцы с ярким леопардовым окрасом.</li>
-            </ol>
-        </section>
-
-        <hr>
-
-        <!-- 13. Форма подписки -->
-        <section id="subscribe">
-            <h3>Форма подписки</h3>
-            <p>Подпишитесь на нашу еженедельную рассылку, чтобы получать новые статьи о дикой природе и уходе за питомцами:</p>
-            <form action="#" method="post">
-                <label>Имя: <input type="text" name="username" required></label><br><br>
-                <label>Email: <input type="email" name="useremail" required></label><br><br>
-                <label>Телефон: <input type="tel" name="userphone" required></label><br><br>
-                <button type="submit">Подписаться на новости</button>
-            </form>
-        </section>
-    </main>
-
-    <hr>
-
-    <!-- 14. Подвал -->
-    <footer>
-        <nav>
-            <p>&copy; 2026 Все права защищены. Статья создана в учебных целях.</p>
-            <p>Источники информации: 
-                <a href="https://wikipedia.org" target="_blank">Википедия</a> | 
-                <a href="https://nationalgeographic.com" target="_blank">National Geographic</a>
-            </p>
-        </nav>
-    </footer>
-
+  <footer class="footer">
+    <a class="logo footer-logo" href="#top">F<span>O</span>RMA<span class="logo-dot">.</span></a>
+    <p>Делаем идеи заметными.</p>
+    <div class="footer-right"><a href="#top">Наверх ↑</a><span>© FORMA, 2026</span></div>
+  </footer>
+  <script src="script.js"></script>
 </body>
 </html>
